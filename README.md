@@ -11,7 +11,7 @@ load\
 	places.csv
 	granule1.csv
 	granule2.csv
-	granule3.csv
+	granule4.csv
 ```
 
 ## Load the data
