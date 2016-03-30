@@ -1,6 +1,9 @@
 # MODIS DEMO
 Some demos using the NASA MODIS radar dataset
 
+## Note about different versions of SciDB
+Currently works for SciDB 15.12. If you want to try with earlier versions, go back to the first commit"
+
 ## Retrieve the data
 Expects the following data files:
 ```
@@ -17,10 +20,11 @@ First load the data:
 cd load
 ./load_all.sh
 ./load_places.sh
+cd ..
 ```
 
 ## Demo
-Next, open the demo file in RStudio, source the file and run the following functions:
+Next, open the demo file `modisDemo.R` in RStudio, source the file and run the following functions:
 ```
 draw()
 draw_regrid()
